@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -20,5 +21,44 @@ hr {
     margin-left: 40%;
     margin-right: 40%;
     size: 5px;
+    
+}
+.head{
+    text-align: center;
 
+}
+.p{
+    color: #ff0303;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.phello{
+    letter-spacing: 7px;
+}
+#hill{
+    width: 100%;
+}
+#cloud{
+    position: relative;
+    right: 12%;
+   margin-top: 4%;
+   margin-bottom: 1%;
+   
+}
+#cloud2{
+    position: relative;
+    left: 16%;
+}
+.paname{
+    font-family: 'Lemonada', cursive;
+}
+.middle{
+  text-align: center;
+}
+#pimg{
+    height: 250px;
+    margin: -10% auto 3% auto;
+    
 }
