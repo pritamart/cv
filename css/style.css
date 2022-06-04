@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -17,48 +16,213 @@ hr {
     border-style: none;
     color: #F5DF99;
     border-top-style: dotted;
-    border-width: 5px;
+    border-width: 22px;
     margin-left: 40%;
     margin-right: 40%;
-    size: 5px;
-    
+    size: 7px;
+    transition: 2s;
+
 }
-.head{
+
+hr:hover {
+    border-style: none;
+    color: #ffc401;
+    border-top-style: dotted;
+    border-width: 22px;
+    margin-left: 40%;
+    margin-right: 40%;
+    size: 7px;
+    transition: 2s;
+
+}
+
+.head {
     text-align: center;
 
 }
-.p{
+
+.p {
     color: #ff0303;
     font-family: 'Dancing Script', cursive;
     letter-spacing: 5px;
     font-weight: bolder;
     text-decoration: underline;
+    font-size: 3rem;
 }
-.phello{
-    letter-spacing: 7px;
+
+.phello {
+    letter-spacing: 10px;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    transition: 1s;
+
+
+
 }
-#hill{
+
+.phello:hover {
+    letter-spacing: 12px;
+    transform: rotate(10deg);
+    font-size: 4rem;
+    transition: 1s;
+}
+
+#hill {
     width: 100%;
+    /* margin-top: 10rem; */
+    transition: 3s;
+
 }
-#cloud{
+
+#hill:hover {
+    filter: contrast();
+    margin-top: -2.1rem;
+    transition: 3s;
+}
+
+#cloud {
     position: relative;
-    right: 12%;
-   margin-top: 4%;
-   margin-bottom: 1%;
-   
+    right: 20%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    transition: 30s;
+
 }
-#cloud2{
+
+#cloud:hover {
     position: relative;
-    left: 16%;
+    right: 100%;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    transition: 30s;
 }
-.paname{
-    font-family: 'Lemonada', cursive;
+
+#cloud2 {
+    position: relative;
+    left: 19%;
+    height: 3rem;
+    transition: 20s;
+
 }
-.middle{
-  text-align: center;
+
+#cloud2:hover {
+    position: relative;
+    left: 40%;
+
+    transition: 20s;
+    height: 5rem;
 }
-#pimg{
-    height: 250px;
+
+.paname {
+    font-family: 'Sacramento', cursive;
+    font-size: 2.7rem;
+    color: #66BFBF;
+    transition: 3s;
+
+}
+
+.paname:hover {
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    color: #389494;
+    transform: rotate(-10deg);
+
+    transition: 3s;
+}
+
+.middle {
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+#pimg {
+    height: 15rem;
     margin: -10% auto 3% auto;
-    
+    border-radius: 40%;
+    transition: 3s;
+
+}
+
+#pimg:hover {
+    height: 18rem;
+    transition: 1s;
+    box-shadow: 10px 10px 15px #356052;
+    border-radius: 50%;
+}
+
+.cimg {
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.para1 {
+    width: 48%;
+    margin: auto;
+    font-size: 2rem;
+    color: #50907b;
+    line-height: 4rem;
+}
+
+.para1:hover {
+
+    color: #213a32;
+    transition: 1s;
+
+}
+
+.h {
+    font-size: 4.5rem;
+    letter-spacing: .8rem;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 3%;
+
+}
+
+.eduction {
+
+    width: 50%;
+    margin: 2% auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clg1 {
+    float: right;
+
+    line-height: 2rem;
+    width: 60%;
+    text-align: justify;
+
+
+}
+
+.bsc {
+
+    float: left;
+    height: 8rem;
+    margin-right: 3%;
+}
+
+.clg2 {
+
+    clear: left;
+    text-align: justify;
+    line-height: 4rem;
+    width: 60%;
+
+
+}
+
+.msc {
+
+    float: right;
+    height: 8rem;
+
+
+}
+
+.sxc {
+    margin-bottom: 6rem;
+    margin-top: 7rem;
 }
