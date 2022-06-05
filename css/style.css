@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0;
     margin: 0;
 }
@@ -170,7 +170,7 @@ hr:hover {
 }
 
 .eduction {
-    width: 40%;
+    width: 70%;
     margin: 2% auto;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -186,7 +186,7 @@ hr:hover {
 .bsc {
     float: left;
     height: 8rem;
-    margin-right: 3%;
+    margin-right: 9%;
 }
 
 .clg2 {
