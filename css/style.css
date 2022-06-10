@@ -1,4 +1,4 @@
- * {
+* {
     padding: 0;
     margin: 0;
 }
@@ -246,3 +246,20 @@ hr:hover {
 .skillimg{
     height: 6rem;
     }
+.delet{
+    width: 100%;
+    margin: auto;
+}
+.h{
+    color: #389494;
+}
+footer{
+    height: 8rem;
+    background-color: rgb(9, 17, 21);
+    margin: 0% -22% -4% -22%;
+    text-align: center;
+    color: #F6FBF4;
+}
+.contact-img{
+    margin: .3rem;
+}
