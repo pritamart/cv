@@ -254,8 +254,11 @@ hr:hover {
     color: #389494;
 }
 footer{
-    height: 8rem;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 7.5rem;
     background-color: rgb(9, 17, 21);
+    /* margin: 0% -22% -4% -22%; */
     text-align: center;
     color: #F6FBF4;
 }
